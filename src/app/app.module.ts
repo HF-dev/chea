@@ -14,6 +14,9 @@ import { CreaprofilComponent } from './creaprofil/creaprofil.component';
 import { RechercherComponent } from './rechercher/rechercher.component';
 import { MapComponent } from './map/map.component';
 import { AmisComponent } from './amis/amis.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { AmisComponent } from './amis/amis.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
