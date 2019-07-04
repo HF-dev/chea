@@ -9,13 +9,23 @@ import {MatButtonModule, MatCheckboxModule, MatIconModule} from '@angular/materi
 import { BienvenueComponent } from './bienvenue/bienvenue.component';
 import { PhotoprofilComponent } from './photoprofil/photoprofil.component';
 import { AppelvideoComponent } from './appelvideo/appelvideo.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { CreaprofilComponent } from './creaprofil/creaprofil.component';
+import { RechercherComponent } from './rechercher/rechercher.component';
+import { MapComponent } from './map/map.component';
+import { AmisComponent } from './amis/amis.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BienvenueComponent,
     PhotoprofilComponent,
-    AppelvideoComponent
+    AppelvideoComponent,
+    AccueilComponent,
+    CreaprofilComponent,
+    RechercherComponent,
+    MapComponent,
+    AmisComponent
   ],
   imports: [
     BrowserModule,
