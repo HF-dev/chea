@@ -6,10 +6,20 @@ import { AppComponent } from './app.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatIconModule} from '@angular/material';
+import { AccueilComponent } from './accueil/accueil.component';
+import { CreaprofilComponent } from './creaprofil/creaprofil.component';
+import { RechercherComponent } from './rechercher/rechercher.component';
+import { MapComponent } from './map/map.component';
+import { AmisComponent } from './amis/amis.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccueilComponent,
+    CreaprofilComponent,
+    RechercherComponent,
+    MapComponent,
+    AmisComponent
   ],
   imports: [
     BrowserModule,
