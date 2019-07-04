@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule, MatIconModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, } from '@angular/material';
 import { BienvenueComponent } from './bienvenue/bienvenue.component';
 import { PhotoprofilComponent } from './photoprofil/photoprofil.component';
 import { AppelvideoComponent } from './appelvideo/appelvideo.component';
@@ -17,6 +17,10 @@ import { AmisComponent } from './amis/amis.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -36,11 +40,13 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatIconModule,
     MatFormFieldModule,
     MatSelectModule,
-  
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
+    MatGridListModule,
+    MatDividerModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
