@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatIconModule} from '@angular/material';
+import { BienvenueComponent } from './bienvenue/bienvenue.component';
+import { PhotoprofilComponent } from './photoprofil/photoprofil.component';
+import { AppelvideoComponent } from './appelvideo/appelvideo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BienvenueComponent,
+    PhotoprofilComponent,
+    AppelvideoComponent
   ],
   imports: [
     BrowserModule,
