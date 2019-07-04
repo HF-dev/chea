@@ -16,6 +16,7 @@ import { MapComponent } from './map/map.component';
 import { AmisComponent } from './amis/amis.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatFormFieldModule,
     MatSelectModule,
   
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
