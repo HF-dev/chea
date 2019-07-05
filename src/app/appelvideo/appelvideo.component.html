@@ -1,5 +1,11 @@
-<button mat-icon-button><mat-icon aria-hidden="false">call_end</mat-icon></button>
-<button mat-icon-button><mat-icon aria-hidden="false">videocam</mat-icon></button>
-<button mat-icon-button><mat-icon aria-hidden="false">mic_off</mat-icon></button>
-<button mat-icon-button><mat-icon aria-hidden="false">mic</mat-icon></button>
-<button mat-icon-button><mat-icon aria-hidden="false">videocam_off</mat-icon></button>
+<button mat-icon-button>
+  <mat-icon  aria-hidden="false">call_end</mat-icon>
+</button>
+<button mat-icon-button>
+  <mat-icon *ngIf=" !isOff"aria-hidden="false" (click)="isOff = true;">videocam_off</mat-icon>
+  <mat-icon *ngIf=" isOff"aria-hidden="false" (click)="isOff = false;">videocam</mat-icon>
+</button>
+<button mat-icon-button>
+  <mat-icon *ngIf=" !isMuted"aria-hidden="false" (click)="isMuted = true;">mic_off</mat-icon>
+  <mat-icon *ngIf=" isMuted"aria-hidden="false" (click)="isMuted = false;">mic</mat-icon>
+</button>

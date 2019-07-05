@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppelvideoComponent implements OnInit {
 
+  public isMuted :boolean;
+  public isOff :boolean;
+
   constructor() { }
 
   ngOnInit() {
