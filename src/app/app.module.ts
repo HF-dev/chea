@@ -22,7 +22,16 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+<<<<<<< HEAD
 import { ChatComponent } from './chat/chat.component';
+=======
+import { ApplicationRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { AgmCoreModule } from '@agm/core';
+
+>>>>>>> 5539aab605482e5e202bfb473244de2f77ae75b0
 
 @NgModule({
   declarations: [
@@ -49,7 +58,10 @@ import { ChatComponent } from './chat/chat.component';
     MatIconModule,
     MatGridListModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAd713GfDN8oFGkNolcP7YPWTqidHaLy9E'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
