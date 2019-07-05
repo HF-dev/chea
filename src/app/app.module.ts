@@ -22,6 +22,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {MatButtonModule} from '@angular/material/button';
     CreaprofilComponent,
     RechercherComponent,
     MapComponent,
-    AmisComponent
+    AmisComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,

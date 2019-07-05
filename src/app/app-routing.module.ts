@@ -9,6 +9,7 @@ import {CreaprofilComponent} from './creaprofil/creaprofil.component'
 import {MapComponent} from './map/map.component'
 import {PhotoprofilComponent} from './photoprofil/photoprofil.component'
 import {RechercherComponent} from './rechercher/rechercher.component'
+import {ChatComponent} from './chat/chat.component'
 const routes: Routes = [
   {
     path: '',
@@ -41,8 +42,12 @@ const routes: Routes = [
   {
     path: 'rechercher',
     component: RechercherComponent
-  }
-];
+  },
+{
+  path: 'chat',
+  component: ChatComponent
+}
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
