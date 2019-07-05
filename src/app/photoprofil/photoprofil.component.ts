@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-photoprofil',
   templateUrl: './photoprofil.component.html',
-  styleUrls: ['./photoprofil.component.sass']
+  styleUrls: ['./photoprofil.component.scss']
 })
 export class PhotoprofilComponent implements OnInit {
 

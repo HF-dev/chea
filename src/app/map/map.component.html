@@ -1,5 +1,9 @@
-<mat-grid-list cols="3" rowHeight="1:1">
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+  <mat-grid-list cols="3" rowHeight="1:1">
     <mat-grid-tile><button mat-icon-button routerLink="/amis"><mat-icon aria-hidden="false" aria-label="Example home icon">chat_bubble_outline</mat-icon></button></mat-grid-tile>
     <mat-grid-tile><button mat-icon-button routerLink="/rechercher"><mat-icon aria-hidden="false" aria-label="Example home icon">person_outline</mat-icon></button></mat-grid-tile>
     <mat-grid-tile><mat-icon aria-hidden="false" aria-label="Example home icon">flag</mat-icon></mat-grid-tile>
   </mat-grid-list>
+

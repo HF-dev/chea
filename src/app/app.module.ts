@@ -22,6 +22,12 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import { ApplicationRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { AgmCoreModule } from '@agm/core';
+
 
 @NgModule({
   declarations: [
@@ -47,7 +53,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     MatGridListModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAd713GfDN8oFGkNolcP7YPWTqidHaLy9E'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

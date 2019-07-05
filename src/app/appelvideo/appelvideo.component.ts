@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-appelvideo',
   templateUrl: './appelvideo.component.html',
-  styleUrls: ['./appelvideo.component.sass']
+  styleUrls: ['./appelvideo.component.scss']
 })
 export class AppelvideoComponent implements OnInit {
 
